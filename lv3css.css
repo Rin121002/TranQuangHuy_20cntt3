@@ -1,0 +1,199 @@
+@charset "ISO-8859-1";
+*{
+ padding: 0;
+ margin: 0;
+}
+#menu ul
+{
+
+ list-style-type: none;
+ background: #0099FF;
+ text-align: left;
+ width: 100px;
+}
+
+#menu ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-weight: bold;
+}
+#menu ul li{
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+
+}
+#menu ul li a:hover {
+	background: #f1f1f1;
+	color: #333;
+}
+
+#menu ul li>.sub-menu{
+  display: none;
+  position: absolute;
+  left: 100px;
+  top : 0;
+  background: green;
+
+}
+#menu ul li:hover .sub-menu {
+	display: block;
+}
+#menu ul li ul li>.sub-menu1{
+   display: none;
+   left: 100px;
+   top: 0;	
+   position: absolute;
+   background: gray;
+
+}
+#menu ul li ul li:hover .sub-menu1{
+	display: block;
+}
+#menu ul li ul li>.sub-menu2{
+   display: none;
+   left: 100px;
+   top: 0;	
+   position: absolute;
+   background: gray;
+
+}
+#menu ul li ul li:hover .sub-menu2{
+	display: block;
+}
+
+#menu ul li ul li>.sub-menu3{
+   display: none;
+   left: 100px;
+   top: 0;	
+   position: absolute;
+   background: gray;
+
+}
+#menu ul li ul li:hover .sub-menu3{
+	display: block;
+}
+#menu ul li ul li ul li>.sub1{
+   display: none;
+   left: 100px;
+   top: 0;	
+   position: absolute;
+   background: #FFC0CB	;
+
+}
+#menu ul li ul li ul li:hover .sub1{
+	display: block;
+}
+#menu ul li ul li ul li>.sub2{
+   display: none;
+   left: 100px;
+   top: 0;	
+   position: absolute;
+   background: #FFC0CB	;
+
+}
+#menu ul li ul li ul li:hover .sub2{
+	display: block;
+}
+#menu ul li ul li ul li>.sub3{
+   display: none;
+   left: 100px;
+   top: 0;	
+   position: absolute;
+   background: #FFC0CB	;
+
+}
+#menu ul li ul li ul li:hover .sub3{
+	display: block;
+}
+#menu ul li ul li ul li>.sub4{
+   display: none;
+   left: 100px;
+   top: 0;	
+   position: absolute;
+   background: #FFC0CB	;
+
+}
+#menu ul li ul li ul li:hover .sub4{
+	display: block;
+}
+#menu ul li ul li ul li>.sub5{
+   display: none;
+   left: 100px;
+   top: 0;	
+   position: absolute;
+   background: #FFC0CB	;
+
+}
+#menu ul li ul li ul li:hover .sub5{
+	display: block;
+}
+#menu ul li ul li ul li>.sub6{
+   display: none;
+   left: 100px;
+   top: 0;	
+   position: absolute;
+   background: #FFC0CB	;
+
+}
+#menu ul li ul li ul li:hover .sub6{
+	display: block;
+}
+#menu ul li ul li ul li>.sub7{
+   display: none;
+   left: 100px;
+   top: 0;	
+   position: absolute;
+   background: #FFC0CB	;
+
+}
+#menu ul li ul li ul li:hover .sub7{
+	display: block;
+}
+#menu ul li ul li ul li>.sub8{
+   display: none;
+   left: 100px;
+   top: 0;	
+   position: absolute;
+   background: #FFC0CB	;
+
+}
+#menu ul li ul li ul li:hover .sub8{
+	display: block;
+}
+#menu ul li ul li ul li>.sub9{
+   display: none;
+   left: 100px;
+   top: 0;	
+   position: absolute;
+   background: #FFC0CB	;
+
+}
+#menu ul li ul li ul li:hover .sub9{
+	display: block;
+}
+#menu ul li ul li ul li>.sub10{
+   display: none;
+   left: 100px;
+   top: 0;	
+   position: absolute;
+   background: #FFC0CB	;
+
+}
+#menu ul li ul li ul li:hover .sub10{
+	display: block;
+}
+#menu ul li ul li ul li>.sub11{
+   display: none;
+   left: 100px;
+   top: 0;	
+   position: absolute;
+   background: #FFC0CB	;
+
+}
+#menu ul li ul li ul li:hover .sub11{
+	display: block;
+}
+
